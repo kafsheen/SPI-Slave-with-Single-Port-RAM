@@ -59,8 +59,3 @@ The full design documentation `SPI_Report.pdf` includes:
 - `SPI_Wrapper_tb.v`: Verilog testbench for simulation and verification of the SPI wrapper.  
 - `run.do`: Script file for automating the simulation process.  
 
-## Getting Started
-
-To work with this project, you’ll need a **Verilog simulator**. 
-**QuestaSim** is recommended.
-
