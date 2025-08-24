@@ -64,30 +64,3 @@ The full design documentation `SPI_Report.pdf` includes:
 To work with this project, you’ll need a **Verilog simulator**. 
 **QuestaSim** is recommended.
 
-### 1. Quick Simulation (Recommended)
-
-A preconfigured script `run.do` is provided to automate the simulation.
-
-Steps:
-1. Ensure your simulator is installed and licensed.
-2. Open a terminal or simulator console.
-3. Navigate to the project directory.
-4. Run:
-   do run.do
-5. The script will:
-   - Compile all Verilog files.
-   - Load the testbench.
-   - Run the simulation.
-   - Display the waveform.
-
-### 2. Manual Simulation (Optional)
-
-1. Compile source files from `src/`.
-2. Compile testbench files from `tb/`.
-3. Load the top-level testbench (`SPI_Wrapper_tb.v`).
-4. Run the simulation and observe waveforms.
-
-### 3. Testbench
-
-- The provided `SPI_Wrapper_tb.v` contains example SPI slave with RAM operations.
-- Extend with custom vectors for more thorough testing.
